@@ -45,6 +45,8 @@ alias re="nr release"
 # Git
 # -------------------------------- #
 
+alias gp='git push'
+
 alias main='git checkout main'
 
 alias gco='git checkout'
