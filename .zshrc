@@ -47,7 +47,9 @@ alias re="nr release"
 
 alias gp='git push'
 
-alias main='git checkout main'
+function main() {
+  git checkout main 2> /dev/null || git checkout master 2> /dev/null
+}
 
 alias gco='git checkout'
 alias gcob='git checkout -b'
