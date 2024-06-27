@@ -63,3 +63,9 @@ alias gc='git commit'
 alias gcm='git commit -m'
 
 alias gmm='git merge main'
+
+# -------------------------------- #
+# Laravel
+# -------------------------------- #
+
+alias a='php artisan'
