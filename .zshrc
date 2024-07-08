@@ -47,8 +47,7 @@ alias re="nr release"
 
 alias gp='git push'
 
-alias main='git checkout main'
-alias master='git checkout master'
+alias main='git checkout $(git_main_branch)'
 
 alias gco='git checkout'
 alias gcob='git checkout -b'
@@ -59,10 +58,10 @@ alias gbd='git branch -d'
 alias ga='git add'
 alias gA='git add -A'
 
-alias gc='git commit'
-alias gcm='git commit -m'
+alias gc='git commit --no-verify'
+alias gcm='git commit --no-verify -m'
 
-alias gmm='git merge main'
+alias gmm='git merge $(git_main_branch)'
 
 # -------------------------------- #
 # Laravel
