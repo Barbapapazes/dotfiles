@@ -68,3 +68,6 @@ alias gmm='git merge $(git_main_branch)'
 # -------------------------------- #
 
 alias a='php artisan'
+alias cr='composer run'
+alias cl='composer run lint && composer run refactor'
+alias ct='composer run test'
