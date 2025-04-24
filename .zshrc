@@ -79,6 +79,8 @@ alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
 # -------------------------------- #
 
 alias gpr='gh pr create'
+alias gv='gh pr view'
+alias go='gh pr view --web'
 
 # -------------------------------- #
 # GitLab
