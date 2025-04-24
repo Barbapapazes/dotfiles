@@ -71,3 +71,17 @@ alias a='php artisan'
 alias cr='composer run'
 alias cl='composer run lint && composer run refactor'
 alias ct='composer run test'
+
+alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+
+# -------------------------------- #
+# GitHub
+# -------------------------------- #
+
+alias gpr='gh pr create'
+
+# -------------------------------- #
+# GitLab
+# -------------------------------- #
+
+alias gmr='glab mr create -a esteban.soubiran --push --remove-source-branch --squash-before-merge -f -y'
