@@ -62,6 +62,7 @@ alias gc='git commit --no-verify'
 alias gcm='git commit --no-verify -m'
 
 alias gmm='git merge $(git_main_branch)'
+alias grm='git rebase $(git_main_branch)'
 
 # -------------------------------- #
 # Laravel
